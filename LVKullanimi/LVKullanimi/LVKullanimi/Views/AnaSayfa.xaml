@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LVKullanimi.Views.AnaSayfa">
+    <ContentPage.Content>
+        <StackLayout>
+            <!-- Başlık kısmı-->
+            <StackLayout Padding="20">
+                <Label HorizontalTextAlignment="Center"
+                       Text="REHBER"
+                       FontAttributes="Bold"
+                       TextColor="Black"/>
+            </StackLayout>
+            <!-- Rehberin görüntüleceği kısmı tasarlıyrouz-->
+            <StackLayout>
+                <ListView x:Name="listRehber" ItemsSource="{Binding .}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <ViewCell.View>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Grid Grid.Column="0">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <Label Text="{Binding Ad}"
+                                                   TextColor="Black"
+                                                   Grid.Column="0"/>
+                                            <Label Text="{Binding Soyad}"
+                                                   TextColor="Black"
+                                                   Grid.Column="1"/>
+                                        </Grid>
+                                        <StackLayout Grid.Column="1">
+                                            <Label Text="{Binding Numara}"
+                                                   TextColor="Black"
+                                                   />
+                                        </StackLayout>
+                                    </Grid>
+                                </ViewCell.View>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

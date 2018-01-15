@@ -1,0 +1,10 @@
+c:\users\omersezer\Documents\Projects\LVKullanimi\LVKullanimi\LVKullanimi\bin\Debug\netstandard2.0\LVKullanimi.deps.json
+c:\users\omersezer\Documents\Projects\LVKullanimi\LVKullanimi\LVKullanimi\bin\Debug\netstandard2.0\LVKullanimi.dll
+c:\users\omersezer\Documents\Projects\LVKullanimi\LVKullanimi\LVKullanimi\bin\Debug\netstandard2.0\LVKullanimi.pdb
+c:\users\omersezer\Documents\Projects\LVKullanimi\LVKullanimi\LVKullanimi\obj\Debug\netstandard2.0\LVKullanimi.csprojResolveAssemblyReference.cache
+c:\users\omersezer\Documents\Projects\LVKullanimi\LVKullanimi\LVKullanimi\obj\Debug\netstandard2.0\LVKullanimi.csproj.CoreCompileInputs.cache
+c:\users\omersezer\Documents\Projects\LVKullanimi\LVKullanimi\LVKullanimi\obj\Debug\netstandard2.0\LVKullanimi.Views.AnaSayfa.xaml.g.cs
+c:\users\omersezer\Documents\Projects\LVKullanimi\LVKullanimi\LVKullanimi\obj\Debug\netstandard2.0\LVKullanimi.AssemblyInfoInputs.cache
+c:\users\omersezer\Documents\Projects\LVKullanimi\LVKullanimi\LVKullanimi\obj\Debug\netstandard2.0\LVKullanimi.AssemblyInfo.cs
+c:\users\omersezer\Documents\Projects\LVKullanimi\LVKullanimi\LVKullanimi\obj\Debug\netstandard2.0\LVKullanimi.dll
+c:\users\omersezer\Documents\Projects\LVKullanimi\LVKullanimi\LVKullanimi\obj\Debug\netstandard2.0\LVKullanimi.pdb
